@@ -11,7 +11,7 @@
                         <p>{{ currentEpisode.name }} | {{ currentEpisode.episode }}</p>
                     </div>
                     <div class="flex items-center justify-between">
-                        <SaibaMais />
+                        <SaibaMais tipo="episode"/>
                         <IconsHearthFilled :width="32" :height="32"/>
                     </div>
                 </DocumentCard>

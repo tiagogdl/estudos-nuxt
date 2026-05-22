@@ -23,7 +23,7 @@
                   <IconsHearthOutlined v-else/>
                 </div>
               </div>
-              <SaibaMais :action-url="currentCharacter.url" class="mt-auto"/>
+              <SaibaMais :id="currentCharacter.id" class="mt-auto"/>
           </DocumentCard>
         </div>
       </div>
