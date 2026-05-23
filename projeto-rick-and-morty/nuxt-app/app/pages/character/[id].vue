@@ -1,5 +1,6 @@
 <template>
-    <div>
+<PageContainer>
+    <div class="px-20">
         <img src="/public/images/LogoA.png" alt="" class="py-10">
         <div class="flex gap-16" >
             <img :src="data.image" alt="Foto Personagem" width="369" height="461" class="rounded-2xl">
@@ -14,6 +15,7 @@
             </div>
         </div>
     </div>
+</PageContainer>
 </template>
 
 <script setup>

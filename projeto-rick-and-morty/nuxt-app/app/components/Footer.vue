@@ -1,10 +1,11 @@
 <template>
-    <footer class="flex flex-col items-center">
-        <div class="py-20 flex justify-between w-full">
+    <footer class="flex flex-col items-center px-4">
+        <div class="py-16 flex justify-between w-full ">
             <img src="../public/images/LogoA.png" alt="Logo Rick And Morty">
             <BackTop />
         </div>
-        <div class="border-t-2 flex justify-between py-6 w-full">
+        <div class="border-t-2 w-screen pb-3"></div>
+        <div class="flex justify-between py-6 w-full">
             <p>&copy; {{ new Date().getFullYear() }}</p>
 
             <p>
