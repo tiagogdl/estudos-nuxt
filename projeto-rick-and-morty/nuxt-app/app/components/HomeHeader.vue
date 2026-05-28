@@ -23,8 +23,9 @@
                 <p class="text-text-blue">Ai sim, Porr#@%&*</p>
             </div>
 
-            <img class="hidden dark:block" src="../public/images/HighlightImage.png" alt="Imagem Rick Preto" v-if="dark">
-            <img src="../public/images/imagelight.png" alt="Rick and Morry Light" v-if="!dark" class="px-42">
+            <img class="p-0" src="../public/images/HighlightImage.png" alt="Imagem Rick Preto" v-if="dark">
+
+            <img src="../public/images/imagelight.png" alt="Rick and Morry Light" v-if="!dark" class="xl:px-42 p-0">
         </div>
     </header>
 </template>

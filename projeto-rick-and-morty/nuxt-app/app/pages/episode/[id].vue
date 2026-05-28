@@ -11,12 +11,12 @@
             
             </button>
         </div>
-        <div class="flex gap-64 justify-center xl:justify-start">
+        <div class="flex gap-64 justify-center px-4 xl:p-0 xl:justify-start">
             <div>
                 <Play width="50" height="50" class="mb-3"/>
                 <div class="flex flex-col gap-6">
-                    <div class="flex gap-4">
-                        <h1 class="text-5xl whitespace-nowrap">{{ data.name }} </h1>
+                    <div class="flex gap-4 ">
+                        <h1 class="text-5xl ">{{ data.name }} </h1>
                         <HearthOutlined class="mt-1" width="70" height="50" />
                     </div>
                     <div class="flex">
