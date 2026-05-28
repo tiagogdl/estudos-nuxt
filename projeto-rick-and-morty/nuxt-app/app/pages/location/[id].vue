@@ -16,7 +16,7 @@
                 <MundoLocation class="mb-6  "/>
                 <div class="flex flex-col gap-8">
                     <div class="flex gap-4">
-                        <h1 class="text-4xl xl:text-5xl whitespace-nowrap">{{ data.name }} </h1>
+                        <h1 class="text-4xl xl:text-5xl xl:whitespace-nowrap">{{ data.name }} </h1>
                         <HearthOutlined class="mt-1" width="70" height="50" />
                     </div>
                     <div class="flex">

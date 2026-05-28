@@ -23,21 +23,20 @@
                 <p class="text-text-blue">{{ dark ? 'Ai sim, Porr#@%&*' : 'Wubba Lubba Dub Dub! Cuidado com os olhos.' }}</p>
             </div>
 
-            <img class="p-0" src="../public/images/HighlightImage.png" alt="Imagem Rick Preto" v-if="dark">
-
-            <img src="../public/images/imagelight.png" alt="Rick and Morry Light" v-if="!dark" class="xl:px-42 p-0">
+            <img v-if="dark" src="../public/images/HighlightImage.png" alt="Rick Escuro">
+            <img v-else src="../public/images/imagelight.png" alt="Rick Claro" class="xl:px-42 p-0">
         </div>
     </header>
 </template>
 
 <script setup>
-import {ref} from 'vue';
+import {ref, watch} from 'vue';
 import Moon from './icons/Moon.vue';
 import Son from './icons/Son.vue';
 
 const dark = ref(false)
 
-watch(dark, function(){
-  document.documentElement.classList.toggle('dark')
+watch(dark, function(value){
+  document.documentElement.classList.toggle('dark', value)
 })
 </script>
