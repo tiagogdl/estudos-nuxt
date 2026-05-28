@@ -20,7 +20,7 @@
                         Claro
                     </button>
                 </div>
-                <p class="text-text-blue">Ai sim, Porr#@%&*</p>
+                <p class="text-text-blue">{{ dark ? 'Ai sim, Porr#@%&*' : 'Wubba Lubba Dub Dub! Cuidado com os olhos.' }}</p>
             </div>
 
             <img class="p-0" src="../public/images/HighlightImage.png" alt="Imagem Rick Preto" v-if="dark">
