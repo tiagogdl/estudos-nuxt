@@ -5,11 +5,13 @@
    <PageContainer>
      <CharactersListening />
       <EpisodesListening />
+      <LocationsListening />
    </PageContainer>
    </div>
 </template>
 <script setup>
 import PageContainer from '~/layouts/PageContainer.vue';
+
 
 useHead({
     title: `Rick And Morty`

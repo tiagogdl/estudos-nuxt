@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+ @theme {
+    --color-documentCard: #e2e8f0;
+    --color-text-blue: #11B0C8;
+    --color-fundoHeader: #fff;
+    --color-fundoDefault: #ffffff;
+    --color-textWB: #000;
+    --color-verTodos: #11B0C8;
+    --color-Son: #1E1E1E;
+    --color-Topo: #fff;
+}
+
+ .dark {
+  --color-documentCard: #313234;
+    --color-text-blue: #11B0C8;
+    --color-fundoHeader: #000;
+    --color-fundoDefault: #1E1E1E;
+    --color-textWB: #ffffff;
+    --color-verTodos: #313234;
+    --color-Son: #1E1E1E;
+    --color-Topo: #000;
+ }

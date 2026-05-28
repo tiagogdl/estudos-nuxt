@@ -1,6 +1,6 @@
 <template>
-    <footer class="flex flex-col items-center px-4">
-        <div class="py-16 flex justify-between w-full ">
+    <footer class="flex flex-col items-center px-4 py-20 ">
+        <div class="py-6 flex justify-between w-full ">
             <img src="../public/images/LogoA.png" alt="Logo Rick And Morty">
             <BackTop />
         </div>
@@ -9,10 +9,10 @@
             <p>&copy; {{ new Date().getFullYear() }}</p>
 
             <p>
-                <i class="fa-solid fa-angle-left text-[#11B0C8]"></i>
-                <i class="fa-solid fa-angle-right text-[#11B0C8]"></i>
+                <i class="fa-solid fa-angle-left text-text-blue"></i>
+                <i class="fa-solid fa-angle-right text-text-blue"></i>
 
-                 Desenvolvido por <a href="https://github.com/tiagogdl" class="text-[#11B0C8] font-bold">Tiago Dias</a></p>
+                 Desenvolvido por <a href="https://github.com/tiagogdl" class="text-text-blue font-bold">Tiago Dias</a></p>
         </div>
     </footer>
     
